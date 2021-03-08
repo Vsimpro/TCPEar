@@ -9,4 +9,5 @@ Tracking any port is easy with just minor adjustments. On line 19, you'll find t
 by changing the number "-- dst port 22" | --" into the desired port number, i.e "-- dst port 23",
 it will now begin to listen to TCP packets flowing into that port. You might also want to change this number a few lines below,
 > log_dict(line, "22")
+
 to have it write the port number into the .txt log.
