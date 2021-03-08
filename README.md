@@ -5,7 +5,7 @@ that logs the TCP packets coming in to your machine. Specifically from port 22.
 
 
 #### Modification into a specific use case.
-Tracking any port is easy with just minor adjustments. On line 19, you'll find the main suspect of this crime,
+Tracking any port is easy with just minor adjustments. On line 19, you'll find the main culprit of this crime,
 > "sudo tcpdump -nlq "tcp[13] == 2 and dst port 22" | while read x; do echo "${x}"; echo -en \\a; done" 
 
 by changing the number "-- dst port 22" | --" into the desired port number, i.e "-- dst port 23",
