@@ -1,5 +1,7 @@
 ## TCP - Ear
-Simple Tool that logs the TCP packets coming in to your machine, specifically from port 22.
+Simple Tool with a horrible name,
+that logs the TCP packets coming in to your machine. Specifically from port 22.
+
 
 
 #### Modification into a specific use case.
