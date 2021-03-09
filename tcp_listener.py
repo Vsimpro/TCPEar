@@ -45,6 +45,6 @@ def log_dict(echo, port):
     ip = datapoint[2]
     if blacklist in ip:
         return
-    n_ip = ip.split(".")    
-    ip = f"{ip[0]}.{ip[1]}.{ip[2]}.{ip[3]}"
+    ip = ip.split(".")    
+    n_ip = f"{ip[0]}.{ip[1]}.{ip[2]}.{ip[3]}"
     write(f"{n_ip}:{port} -- {time}\n")
