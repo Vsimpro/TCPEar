@@ -2,7 +2,7 @@
 Simple Tool with a horrible name,
 that logs the TCP packets coming in to your machine. Specifically from port 22.
 
-
+### Currently only works on ubuntu.
 
 #### Modification into a specific use case.
 Tracking any port is easy with just minor adjustments. On line 19, you'll find the main culprit of this crime,
