@@ -12,7 +12,7 @@ def banner():
    ██║   ██║     ██╔═══╝     ╚════╝    ██╔══╝  ██╔══██║██╔══██╗
    ██║   ╚██████╗██║                   ███████╗██║  ██║██║  ██║
    ╚═╝    ╚═════╝╚═╝                   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝                                                          
-    -- Handcraftef with love, by Vsimpro <3
+    -- Handcrafted with love, by Vsimpro <3
     """)
 
 def port22():
